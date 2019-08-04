@@ -25,9 +25,11 @@ Add the following path to .bashrc (and/or) .bash_profile. This is to include you
 export PATH="$HOME/.bin:$PATH"
 ```
 
-Now copy the script to the .bin directory in your home folder and change permissions to executable.
+Now copy the script to the .bin directory in your home folder.
+remove the .sh extension from the file name and change permissions to executable.
 
 ```console
+mv folderfy.sh folderfy
 chmod u+x $HOME/.bin/folderfy
 ```
 
